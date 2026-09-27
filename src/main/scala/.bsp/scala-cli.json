@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/asus_nikol/.cache/scalacli/local-repo/bin/scala-cli/scala-cli",
+    "bsp",
+    "--json-options",
+    "/mnt/c/Users/30697/Documents/csdcode/parall/cs342_assign4_2025/Elevator_Simulation/src/main/scala/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/mnt/c/Users/30697/Documents/csdcode/parall/cs342_assign4_2025/Elevator_Simulation/src/main/scala/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/mnt/c/Users/30697/Documents/csdcode/parall/cs342_assign4_2025/Elevator_Simulation/src/main/scala/.scala-build/ide-envs.json",
+    "/mnt/c/Users/30697/Documents/csdcode/parall/cs342_assign4_2025/Elevator_Simulation/src/main/scala/main.scala"
+  ],
+  "version": "1.7.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

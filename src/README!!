@@ -1,0 +1,10 @@
+Σε μηχάνημα της σχολής δεν μπόρεσα να το τρέξω γιατί κανένα από αυτά που δοκίμασα δεν είχε την scala εγκαταστημένη.
+Για compile and run: Μέσα στο φάκελο Elevator_Simulation: sbt "run <elevators> <floors> <users> <minutes>"
+Για το printing στο stdout χρησιμοποίησα custom logs με χρήση της: import org.slf4j.LoggerFactory , 
+    που είναι thread safe unlike simple println 
+    και σε περίπτωση που στην αρχή δείτε το μύνημα:
+    SLF4J: A number (...) of logging calls during the initialization phase have been intercepted and are  
+    SLF4J: now being replayed.
+    Σημαίνει απλά πως: 
+        "Logging started happening before the logger was fully initialized,
+        but SLF4J caught those early logs and printed them once ready."
